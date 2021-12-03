@@ -26,10 +26,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'file_validators'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem "paperclip", "~> 6.0.0"
+gem 'devise_invitable', '~> 2.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -4,6 +4,11 @@
   <%= render "users/shared/error_messages", resource: resource %>
 
   <div>
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar, as: :file, class: "form-control" %>
+  </div>
+
+  <div>
     <%= f.label :first_name %><br />
     <%= f.text_field :first_name, autofocus: true %>
   </div>
